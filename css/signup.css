@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #b5b5b5;
+    
+}
+.signup-wrapper{
+    margin: auto;
+    width: 29%;
+    height: 70%;
+    margin-top: 7%;
+    background-color: #ffffff;
+    border-radius: 14px;
+    
+}
+.signup-logo{
+    margin: 5px 0px;
+    width: 6%;
+    padding-left: 45%;
+}
+.header-action{
+    display: flex;
+}
+.btn-singup {
+    margin-left: 34%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 0px 19px;
+    background-color: #1da1f2;
+    opacity: 0.5;
+    color: #fff;
+    font-size: large;
+    border-radius: 23px;
+}
+.signup-section{
+    margin-left: 33px;
+    margin-right: 33px;
+    padding: 5px 0px;
+    
+}
+.text-signup{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    padding: 15px 0px;
+
+}
+input[type=text] {
+    width: 100%;
+    padding: 18px 7px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #c4c5d6;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+.dob-section{
+    margin-top: 19px;
+  }
+
+.dob-section a{
+    text-decoration:none ;
+    color: #1da1f2;
+}
+.dob-section h6{
+    margin-top: 19px;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+.dob-section p{
+    margin-right: 10px;
+    font-size: 16px;
+    opacity: 0.6;
+}
+select{
+    border: 1px solid #c4c5d6;
+    padding: 15px 54px;
+    margin-top: 11px;
+    border-radius: 4px;
+}
+option[value=""]{
+    opacity: 0.5;
+  }
